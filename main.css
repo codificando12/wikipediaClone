@@ -57,7 +57,7 @@ main {
     align-content: start;
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(6, auto);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 
@@ -108,6 +108,7 @@ main {
     grid-row-start: 4;
     align-self: center;
     justify-self: end;
+    margin-top: 40px;
 }
 
 .chinese {
@@ -144,12 +145,12 @@ main {
     grid-row-start: 4;
     align-self: center;
     justify-self: start;
+    margin-top: 40px;
 }
 
 .upper-section-bottom {
     grid-row: 5;
     grid-column: 1 / 4;
-    background-color: red;
     justify-items: center;
 }
 
@@ -160,10 +161,39 @@ main {
     height: 40px;
     border: 2px solid #f2f2f2f2;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
     align-self: start;
+    border: 1px solid #adadad;
 }
 
 .search-bar input {
-    height: 40px;
+    height: 35px;
+    border: none;
+}
+
+.select-language {
+    height: 70%;
+    align-self: center;
+    justify-content: center;
+   
+}
+
+.select-language select{
+    width: 90%;
+    height: 100%;
+    color: #54595d;
+    border: none;
+}
+
+.search-bar .search-icon-container {
+    grid-column: 3;
+    background-color: #36c;
+    width: auto;
+    height: 40px; 
+}
+
+.search-bar .search-icon-container svg {
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
 }
