@@ -71,7 +71,7 @@ main {
 }
 
 .globe .globe-img {
-    width: 270px;
+    width: 100%;
     align-self: center;
     justify-self: center;
     
@@ -160,12 +160,16 @@ main {
     grid-template-columns: 400px 50px 50px;
     width: 500px;
     height: 40px;
-    border: 2px solid #f2f2f2f2;
     margin: 0 auto;
     margin-top: 30px;
     align-self: start;
     border: 1px solid #adadad;
 }
+
+.search-bar:hover {
+    border: 1px solid black;
+}
+
 
 .search-bar input {
     height: 35px;
@@ -232,7 +236,7 @@ main {
     height: 100%;
     width: 100%;
     color: #36c;
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     font-weight: bold;
     text-align: center;
     justify-content: space-around;
@@ -240,6 +244,9 @@ main {
     font-size: 1.6rem;
 }
 
+.language-selector .language-selector-bar button:hover {
+    background-color: #ffffff;
+}
 .language-selector .language-selector-bar button svg {
     width: 20px;
     height: 20px;
