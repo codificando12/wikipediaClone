@@ -390,5 +390,64 @@ main {
     grid-row: 4;
 }
 
+.wikivaijes-container {
+    grid-column: 3;
+    grid-row: 1;
+}
 
+.wikinoticias-container {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.wikinoticias-container img {
+    width: 40px;
+    height: 30px;
+}
+
+.wikiquote-container {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.wikispecies-container {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.wikidiccionario-container {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.wikisdata-container {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.mediawiki-container {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.metawiki-container {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+footer div{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+
+footer li {
+}
 

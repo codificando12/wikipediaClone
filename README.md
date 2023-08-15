@@ -1,3 +1,5 @@
 This is a wikipedia clone with grid template.
-The globe image is not the best, but it works for this
-porpouse.
+The goal of this project is to learn grid template,
+so it will not be a responsive webpage, because fpr that I can use
+other methodologies.
+
